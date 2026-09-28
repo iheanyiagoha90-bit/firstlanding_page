@@ -1,6 +1,79 @@
-#sciCal {
-    font-size: 0.7rem;
+#time {
+color: blue;
+}
+
+#mainContainer {
+    margin: 50px 0  0 300px;
 }
 #container {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card {
+  background-color: whitesmoke;
+  width: 450px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card label {
+  display: block;
+  margin: 10px 0;
+}
+.btns {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btns:hover {
+    background-color: rgb(52, 52, 142);
+}
+
+.next{
+    margin-left: 10px;
+}
+.prev {
+    margin-left: 190px;
+}
+
+.reset {
+    margin: 0 0 20px 320px; 
+}
+
+.alert {
+    position: relative;
+    top: -300px;
+    left: 300px;
+    width: 300px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px gray;
+    
+}
+.alertB {
+    padding: 10px;
+}
+.msg {
+    color: green;
+    font-size: 25px;
+    margin:27px 0 0px 15px;
+    position: absolute;   
+}
+
+.thumb {
+    font-size: 70px;
+    margin: 0 0 0 180px;
+    color: green;
 }
