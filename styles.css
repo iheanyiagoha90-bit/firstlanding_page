@@ -53,14 +53,14 @@ color: blue;
 
 .alert {
     position: relative;
-    top: -300px;
-    left: 300px;
-    width: 300px;
+    top: -250px;
+    left: 0px;
+    width: 290px;
     height: 100px;
     background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 5px 10px gray;
-    
+    visibility: hidde;
 }
 .alertB {
     padding: 10px;

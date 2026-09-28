@@ -43,7 +43,7 @@ const questions = [
       "hi programming",
       "programming",
       "hello world",
-      "welcome"
+      "welcome user"
     ],
     answer: "hello world"
   }
